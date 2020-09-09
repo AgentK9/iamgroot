@@ -1,6 +1,5 @@
 from random import randint
 iamgroot = "i am groot"
-
 # I am groot.
 while True:
     Iamgroot = input("I am Groot?\t")
@@ -12,10 +11,9 @@ while True:
             break
     except ValueError:
         continue
-
-
 iAmgroot = ['.', '?', '!', ',']
 iaMgroot = int(Iamgroot / (len(iamgroot) + 2))
+iamgrooT = ''
 for iamGroot in range(iaMgroot):
     iamgRoot = ''
     for iamgrOot in iamgroot:
@@ -23,6 +21,5 @@ for iamGroot in range(iaMgroot):
             iamgRoot += iamgrOot
         else:
             iamgRoot += iamgrOot.upper()
-    print(iamgRoot + iAmgroot[randint(0, len(iAmgroot)-1)], end=' ')
-
-
+    iamgrooT += iamgRoot + iAmgroot[randint(0, len(iAmgroot) - 1)] + ' '
+print(iamgrooT)
